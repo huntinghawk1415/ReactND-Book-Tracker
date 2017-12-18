@@ -3,8 +3,9 @@ import React, { Component } from 'react'
 class Book extends Component {
   render() {
     return(
-      <li>
-        { this.props.book.map(s => (
+      <ol className="books-grid">
+        { this.props.books.map(s => (
+        <li key={ s.title }>
           <div className="book">
             <div className="book-top">
               <div className="book-cover" style={{ width: 128, height: 193, backgroundImage: 'url(' + s.imageLinks.thumbnail + ')' }}></div>
@@ -26,8 +27,9 @@ class Book extends Component {
               null
             }</div>
           </div>
+          </li>
         ))}
-      </li>
+      </ol>
     )
   }
 }
