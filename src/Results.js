@@ -5,13 +5,13 @@ import List from './List';
 
 class Results extends Component {
   render() {
-    const {query, handleChange} = this.props;
+    const {query, handleChange, input} = this.props;
     return(
       <div className="bookshelf">
         <h2 className="bookshelf-title mt-3 mb-4">{
           !query
-          ? `Sorry, "${this.props.input}" isn't yeilding results. Check back later.`
-          : `Results for "${this.props.input}"`
+          ? `Sorry, "${input}" isn't yeilding results. Check back later.`
+          : `Results for "${ input}"`
         }</h2>
         <div className="bookshelf-books">{
           query &&
