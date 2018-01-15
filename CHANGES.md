@@ -2,7 +2,7 @@
 
 Because I was working outside of github for most of the development, I completely forgot to commit anything outside of the final build. Here you'll find everything I changed from the original fork.
 
-## [App.js](App.js)
+## [App.js](/blob/master/src/App.js)
 
 1. Added initial state of books to render nothing on the page while componentDidMount did it's dirty work
 2. Added the componentDidMount to call the [BooksAPI](BooksAPI.js) and retrieve all books that are currently on a shelf
