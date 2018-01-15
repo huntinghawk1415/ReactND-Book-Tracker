@@ -41,7 +41,7 @@ class BooksApp extends Component {
     const {books} = this.state, {handleChange} = this;
     return (
       <div className="container">
-       {this.state.books.length && (
+       {this.state.books.length > 0 && (
         <div>
           <Route exact path="/" render={() => (
             <div className="list-books">
