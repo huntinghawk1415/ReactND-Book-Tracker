@@ -1,5 +1,7 @@
 # My Reads App
 
+Welcome to the My Reads App! With this application, you'll be provided with a set library of books that you can update to your heart's content! You have the choice between "Currently Reading," "Want to Read," and "Have Read" to designate your position to the book you're arranging. You can also search for and add new books should you feel you need more reading. Should you decide to search, be sure to read the [SEARCH_TERMS.md](SEARCH_TERMS.md) file to see what terms you can use.
+
 ## To get started:
 
 * be sure to have node.js installed on your computer
