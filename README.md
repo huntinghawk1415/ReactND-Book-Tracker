@@ -4,10 +4,8 @@ Welcome to the My Reads App! With this application, you'll be provided with a se
 
 ## To get started:
 
-* be sure to have node.js installed on your computer
-* verify you're in `/my-reads-app` and install all project dependencies with `npm install`
-* start the development server with `npm start`
-* optionally, run `npm run build; npm install -g serve; serve -s build` to start the production server
+* Verify you're in the root directory for the app and install all project dependencies with `npm i`
+* Start the development server with `npm start`
 
 ## Important
 The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [SEARCH_TERMS.md](SEARCH_TERMS.md). That list of terms are the _only_ terms that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
@@ -16,8 +14,6 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-## Contributing
+## Motivations
 
-This repository began with the starter code for _all_ Udacity students. Udacity, the owner, most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+This project was part of my React Nanodegree coursework with [Udacity](https://udacity.com/). The style is a bit different from the original, but the overall look and functionality has not changed in general from the source code. Thanks for stopping by!
